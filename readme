@@ -1,0 +1,25 @@
+# 📱 Phone Usage Detector (YOLOv8)
+
+A computer vision system that **detects and logs phone usage** from a video using **YOLOv8** and OpenCV.
+
+The system:
+- Detects **person + phone together**
+- Starts a session only after a **stable confirmation time**
+- Ends the session with a **grace period** to avoid flicker
+- Logs **accurate phone usage sessions** to a timestamped log file
+- Ignores short false detections
+
+---
+
+## 🚀 Features
+
+- YOLOv8 object detection
+- Stable session start & end logic
+- Automatic logging with timestamps
+- Visual bounding boxes & live timer
+- Works on prerecorded videos
+
+---
+
+## 📁 Project Structure
+
